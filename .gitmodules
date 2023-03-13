@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:Olga1325/Olga1325.github.io.git
+	branch = main
