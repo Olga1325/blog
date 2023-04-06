@@ -46,16 +46,16 @@ sections:
     content:
       title: Skills
       items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
+        - name: Programming
+          description: 10%
+          icon: computer
+          icon_pack: fas
+        - name: English
+          description: 40%
+          icon: language
           icon_pack: fas
         - name: Photography
-          description: 10%
+          description: 60%
           icon: camera-retro
           icon_pack: fas
   - block: experience
@@ -70,27 +70,17 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: Student
+          company: RUDN
+          company_url: 'https://www.rudn.ru/'
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          location: Moscow
+          date_start: '2022-09-01'
+          date_end: '2026-06-01'
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              Specializing:
+              
+              * Mathematics and computer science
     design:
       columns: '2'
   - block: accomplishments
@@ -106,30 +96,15 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: file:///home/olga/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%9B%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D1%83%D0%BC.%20%D0%9A%D1%83%D1%80%D1%81%20%C2%AB%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D0%AD%D0%92%D0%9C%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0.pdf
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2022-10-17'
           description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          organization: Lektorium
+          organization_url: https://www.lektorium.tv/
+          title: The history of computers and programming
           url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+        
     design:
       columns: '2'
   - block: collection
